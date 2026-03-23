@@ -33,8 +33,8 @@ CREATE TABLE Customers (
 
   CREATE TABLE Date (
   Date_id int,
-  Day varchar (250),
-  Month varchar (250),
+  Day int,
+  Month int,
   Year int,
   );
 
@@ -48,6 +48,7 @@ CREATE TABLE Customers (
   Unit_price int,
   quantity_sold int,
   total_sold_amount int,
+  );
 
  
  INSERT INTO table_name (column1, column2, column3, ...)
